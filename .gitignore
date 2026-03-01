@@ -1,0 +1,23 @@
+# --- DATOS ---
+# Ignorar toda la carpeta de datos
+data/
+
+# --- MODELOS ---
+# Los modelos entrenados (.pth) pueden pesar mucho.
+models/
+
+# --- ENTORNOS VIRTUALES ---
+env/
+venv/
+.env
+
+# --- ARCHIVOS TEMPORALES DE PYTHON ---
+__pycache__/
+*.pyc
+
+# --- JUPYTER NOTEBOOKS ---
+.ipynb_checkpoints/
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
